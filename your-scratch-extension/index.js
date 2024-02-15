@@ -27,9 +27,9 @@ class ScratchFetch {
                 ],
         };
     }
-    sayHelloWorld ({ hello, world }) {
+    sayHelloWorld () {
         // example implementation to return a string
-        return hello world;
+        return "Hello World";
     }
 }
 
