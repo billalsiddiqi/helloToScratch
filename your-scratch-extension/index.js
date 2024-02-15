@@ -5,7 +5,7 @@ class ScratchFetch {
     getInfo() {
         return {
             "id": "Fetch",
-            "name": "Hello To Scratch",
+            "name": "Fetch",
             "blocks": [
                         {
                             "opcode": "fetchURL",
