@@ -27,7 +27,10 @@ class ScratchFetch {
                 ],
         };
     }
-
+    sayHelloWorld ({ hello, world }) {
+        // example implementation to return a string
+        return hello world;
+    }
 }
 
 Scratch.extensions.register(new ScratchFetch())
