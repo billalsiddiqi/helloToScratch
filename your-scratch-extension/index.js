@@ -4,8 +4,8 @@ class ScratchFetch {
     
     getInfo() {
         return {
-            "id": "Fetch",
-            "name": "Fetch",
+            "id": "helloToScratch",
+            "name": "helloToScratch",
             "blocks": [
                         {
                             "opcode": "fetchURL",
