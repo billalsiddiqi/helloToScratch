@@ -6,19 +6,21 @@ class ScratchFetch {
         return {
             "id": "Hello",
             "name": "Hello",
+            color1: '#000000',
+            color2: '#fc0303',
             "blocks": [
                    {
-                        "opcode": "jsonExtract",
+                        "opcode": "sayHelloWorld",
                         "blockType": "reporter",
-                        "text": "extract [name] from [data]",
+                        "text": "Say [hello] to the [world]",
                         "arguments": {
-                            "name": {
+                            "hello": {
                                 "type": "string",
-                                "defaultValue": "temperature"
+                                "defaultValue": "Hello"
                             },
-                            "data": {
+                            "world": {
                                 "type": "string",
-                                "defaultValue": '{"temperature": 12.3}'
+                                "defaultValue": "World"
                             },
                         }
                     },
